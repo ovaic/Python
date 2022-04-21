@@ -10,6 +10,8 @@ select all headings (Row #1 Colomn A-H) -> Click on Data Tab -> Click on Filter 
 
 COPY-PASTE all data for that Label in another EXCEL file and ADD its full PATH in the code (line #9 df = pd.read_csv(r'PATH\links.csv') 
 
+Run this command: !python requirements.txt ... to install libraries.
+
 RUN your Jupyter Notebook TERMINAL in the folder where you want to Download the videos.
 
 Make another folder named "clipped" and "not clipped" in it to store clipped videos. (REQUIRED)*
