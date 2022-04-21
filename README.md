@@ -12,6 +12,6 @@ COPY-PASTE all data for that Label in another EXCEL file and ADD its full PATH i
 
 RUN your Jupyter Notebook TERMINAL in the folder where you want to Download the videos.
 
-Make another folder named "clipped" in it to store clipped videos. (REQUIRED)*
+Make another folder named "clipped" and "not clipped" in it to store clipped videos. (REQUIRED)*
 
 Now just RUN it.
