@@ -27,8 +27,8 @@ for i in links:
             t = t + 1
             frames = video.fps
             video.write_videofile(f'{os.getcwd()}\\clipped\\{t}.mp4', fps = frames) # Saving clipping video in "clipped" folder
-        else if time_start[t] > int(video.duration): # videos in which t_start is greater then total duration ... they can be clipped later manually.
-            video = video.subclip(0, int(video.duration)
+        elif time_start[t] > int(video.duration): # videos in which t_start is greater then total duration ... they can be clipped later manually.
+            video = video.subclip(0, int(video.duration))
             t = t + 1
             frames = video.fps
             video.write_videofile(f'{os.getcwd()}\\not clipped\\{t}.mp4', fps = frames)
